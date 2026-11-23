@@ -206,3 +206,7 @@ sudo systemctl start active-passive-monitor
 - Consider using HTTPS for all communications
 - Regularly rotate API keys
 - Monitor logs for unauthorized access attempts
+
+## Related: event-based RTP with failover (AWS Lambda)
+
+For real-time (event-based) processing of S3 events with failover between MDSS instances, see [`lambda-failover/`](lambda-failover/README.md).
